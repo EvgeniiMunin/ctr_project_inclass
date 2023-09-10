@@ -9,7 +9,6 @@ pytest==7.4.0
 catboost==0.26
 marshmallow-dataclass==8.5.8
 marshmallow==3.17.0
-mlflow==1.15.0
 dvc>=2.0.0
 shap==0.39.0
 fastapi==0.92.0
