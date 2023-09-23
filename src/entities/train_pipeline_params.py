@@ -42,7 +42,7 @@ def read_training_pipeline_params(path: str) -> TrainingPipelineParams:
     with open(path, "r") as input_stream:
         config_dict = yaml.safe_load(input_stream)
         schema = TrainingPipelineParamsSchema().load(config_dict)
-        logger.info("Check schema: %s", schema)
+        logger.debug("Check schema: %s", schema)
         return schema
 
 
